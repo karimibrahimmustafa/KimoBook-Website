@@ -1,0 +1,91 @@
+    body {
+        background-color: #f1f1f1;
+    }
+    
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 16vw;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100vh;
+        overflow: auto;
+        right: 0;
+        border-left: 1px solid gray;
+    }
+    /* Sidebar links */
+    
+    .content {
+        display: none;
+    }
+    
+    #details_container {
+        display: block;
+    }
+    
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+    /* Active/current link */
+    
+    .sidebar a.active {
+        background-color: #343a40;
+        color: white;
+    }
+    /* Links on mouse-over */
+    
+    .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+    
+    div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    /* On screens that are less than 700px wide, make the sidebar into a topbar */
+    
+    @media screen and (max-width: 700px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .sidebar a {
+            float: left;
+        }
+        div.content {
+            margin-left: 0;
+        }
+    }
+    /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    
+    @media screen and (max-width: 400px) {
+        .sidebar a {
+            text-align: center;
+            float: none;
+        }
+    }
+    
+    form {
+        width: 59vw;
+        margin-left: 0;
+        position: absolute;
+        left: 10vw;
+        padding-top: 25;
+    }
+    
+    .file-field {
+        top: 22;
+        width: 51vw;
+        left: -31px;
+    }
+    
+    #range {
+        left: -1vw;
+    }

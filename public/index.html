@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <!-- the wrapper that holds all the sections-->
+    <div class="wrapper">
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Socialy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item ">
+                <a class="nav-link active" href="#">
+                  <i class="fal fa-home"></i>
+                  Home
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fal fa-users"></i> friends</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fal fa-newspaper"></i> pages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fal fa-joystick"></i> games</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fal fa-calendar"></i> events</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fal fa-video"></i> live</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  <i class="fal fa-search"></i>
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  <i class="fal fa-envelope"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="profile">
+                    <img src="img/avatar/hero.png" alt="" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--prodile and timeline section-->
+      <div class="main">
+        <div class="row">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 profile-side"
+          >
+            <!--profile informations-->
+            <div class="info">
+              <div class="hold">
+                <div class="profile">
+                  <img src="img/avatar/hero.png" alt="" />
+                </div>
+              </div>
+              <h6>Selena Adam</h6>
+              <p>ui developer</p>
+              <div class="friends">
+                <div>
+                  <i class="fal fa-user-check"></i>
+                  <p>
+                    2,354 <br />
+                    <span>followers</span>
+                  </p>
+                </div>
+
+                <div>
+                  <i class="fal fa-user-plus"></i>
+                  <p>
+                    2,354 <br />
+                    <span>followers</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!---->
+            <div class="navigator">
+              <div class="icons-parent">
+                <div class="icon">
+                  <div>
+                    <i class="fal fa-chart-line"></i>
+                    <h6>home</h6>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <div>
+                    <i class="fal fa-edit"></i>
+                    <h6>posts</h6>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <div>
+                    <i class="fal fa-save"></i>
+                    <h6>saved</h6>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <div>
+                    <i class="fal fa-bell"></i>
+                    <h6>notifications</h6>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <div>
+                    <i class="fal fa-comment"></i>
+                    <h6>messages</h6>
+                  </div>
+                </div>
+
+                <div class="icon">
+                  <div>
+                    <i class="fal fa-cog"></i>
+                    <h6>settings</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---->
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 content-side"
+          >
+            <div class="darkBakground"></div>
+            <div class="content-child">
+              <div class="row">
+                <div
+                  class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 conversations"
+                >
+                  <div class="upper">
+                    <div class="search">
+                      <i class="fal fa-search"></i>
+                      <input
+                        type="search"
+                        name=""
+                        id=""
+                        placeholder="search in messages"
+                      />
+                    </div>
+                    <div class="bookmark">
+                      <span>
+                        274
+                      </span>
+                      <i class="fal fa-bookmark"></i>
+                    </div>
+                  </div>
+
+                  <div class="inbox">
+                    <!-- messages -->
+                    <div class="msg">
+                      <div class="perosn">
+                        <div class="state"></div>
+                        <div class="profile">
+                          <img src="img/avatar/user.jpg" alt="" />
+                        </div>
+                      </div>
+
+                      <div class="details">
+                        <div class="state">
+                          <p>online</p>
+                          <p>5 min</p>
+                        </div>
+                        <div class="par">
+                          <h6>omar yassir</h6>
+                          <p>
+                            hello there 🙋‍♂ we are going hiking 🌈🌴,
+                            interested?
+                          </p>
+                        </div>
+
+                        <div class="grouping">
+                          <div class="images">
+                            <div class="img">
+                              <img src="img/avatar/user2.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user3.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user4.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="stars">
+                            <span>58</span>
+                            <i class="fa fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- messages -->
+                    <div class="msg active">
+                      <div class="perosn">
+                        <div class="state"></div>
+                        <div class="profile">
+                          <img src="img/avatar/user.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="perosn other">
+                        <div class="profile">
+                          <img src="img/avatar/user2.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="perosn other other2">
+                        <div class="profile">
+                          <img src="img/avatar/user3.jpg" alt="" />
+                        </div>
+                      </div>
+
+                      <div class="details">
+                        <div class="state">
+                          <p>3 online</p>
+                          <p>5 min</p>
+                        </div>
+                        <div class="par">
+                          <h6>ui ux Geeks</h6>
+                          <p>
+                            yo guys, check out the new flutter ui 🌟pretty
+                            amazing ha?
+                          </p>
+                        </div>
+
+                        <div class="grouping">
+                          <div class="images">
+                            <div class="img">
+                              <img src="img/avatar/user2.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user3.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user4.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="stars">
+                            <span>12</span>
+                            <i class="fa fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- messages -->
+                    <div class="msg">
+                      <div class="perosn">
+                        <div class="state"></div>
+                        <div class="profile">
+                          <img src="img/avatar/user3.jpg" alt="" />
+                        </div>
+                      </div>
+
+                      <div class="details">
+                        <div class="state">
+                          <p>online</p>
+                          <p>10 min</p>
+                        </div>
+                        <div class="par">
+                          <h6>calum scott</h6>
+                          <p>
+                            check out this article about the new mobile apps ui
+                            trends for 2020! 🔥😍
+                          </p>
+                        </div>
+
+                        <div class="grouping">
+                          <div class="images">
+                            <div class="img">
+                              <img src="img/avatar/user2.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user3.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user4.jpg" alt="" />
+                            </div>
+                            <div class="img">
+                              <img src="img/avatar/user.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="stars">
+                            <span>25</span>
+                            <i class="fa fa-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bottom">
+                    <i class="fal fa-book"></i>
+                    <i class="active fal fa-comments"></i>
+                    <i class="fal fa-database"></i>
+                    <i class="fal fa-cog"></i>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 feed">
+                  <div class="child">
+                    <div class="header">
+                      <h6>stories</h6>
+                      <p>see all</p>
+                    </div>
+                    <div class="stories">
+                      <div class="slider-parent">
+                        <div class="owl-carousel owl-theme slider">
+                          <div class="item">
+                            <div class="layer">
+                              <div class="person">
+                                <div class="profile">
+                                  <img src="img/avatar/user.jpg" alt="" />
+                                </div>
+                              </div>
+                              <h6>Omar yassir</h6>
+                            </div>
+                            <div class="story-image">
+                              <img src="img/stories/st-1.jpeg" alt="" />
+                            </div>
+                          </div>
+
+                          <div class="item">
+                            <div class="layer">
+                              <div class="person">
+                                <div class="profile">
+                                  <img src="img/avatar/user2.jpg" alt="" />
+                                </div>
+                              </div>
+                              <h6>Robin Adams</h6>
+                            </div>
+                            <div class="story-image">
+                              <img src="img/stories/st.jpg" alt="" />
+                            </div>
+                          </div>
+
+                          <div class="item">
+                            <div class="layer">
+                              <div class="person">
+                                <div class="profile">
+                                  <img src="img/avatar/user3.jpg" alt="" />
+                                </div>
+                              </div>
+                              <h6>Gary simon</h6>
+                            </div>
+                            <div class="story-image">
+                              <img src="img/stories/st1.jpg" alt="" />
+                            </div>
+                          </div>
+
+                          <div class="item">
+                            <div class="layer">
+                              <div class="person">
+                                <div class="profile">
+                                  <img src="img/avatar/user4.jpg" alt="" />
+                                </div>
+                              </div>
+                              <h6>lily Green</h6>
+                            </div>
+                            <div class="story-image">
+                              <img src="img/stories/st2.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--update-->
+                    <div class="update">
+                      <div class="reg">
+                        <div class="status-update">
+                          <div class="profile">
+                            <img src="img/avatar/hero.png" alt="" />
+                          </div>
+                          <textarea
+                            name=""
+                            id=""
+                            placeholder="what's on your mind ?"
+                          ></textarea>
+                        </div>
+                        <span>
+                          <i class="fal fa-camera"></i>
+                          <i class="fal fa-video"></i>
+                          <i class="fal fa-link"></i>
+                        </span>
+                      </div>
+
+                      <div class="advanced">
+                        <div>
+                          <i class="fal fa-smile"></i>
+                          <span>activity</span>
+                        </div>
+                        <div>
+                          <i class="fal fa-calendar"></i>
+                          <span>event</span>
+                        </div>
+                        <div>
+                          <i class="fal fa-map-marker"></i>
+                          <span>check in</span>
+                        </div>
+                        <div>
+                          <i class="fal fa-tag"></i>
+                          <span>tag people</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- timrline -->
+                    <div class="timeline">
+                      <div class="post-info">
+                        <div class="perosn">
+                          <div class="profile">
+                            <img src="img/avatar/user4.jpg" alt="" />
+                          </div>
+                          <div class="desc">
+                            <h6>Emily stone</h6>
+                            <p>
+                              is feeling excited 🤩 with
+                              <span>patrick jones</span> <br />
+                              january/6/2020
+                            </p>
+                          </div>
+                        </div>
+                        <!-- settings dots -->
+                        <div class="dots">
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <!-- post images -->
+                      <div class="post-content">
+                        <p>
+                          Travellimg to the future 🌟 , it's alraedy 2020
+                          🙋‍♂🌈🌴
+                        </p>
+                        <div class="imgs">
+                          <div class="left">
+                            <img src="img/post/1.jpg" alt="" />
+                          </div>
+
+                          <div class="right">
+                            <div class="sm up-img">
+                              <img src="img/post/2.jpg" alt="" />
+                            </div>
+                            <div class="sm down-img">
+                              <img src="img/post/3.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--actions-->
+                      <div class="actions">
+                        <div class="action react">
+                          <div>
+                            <i class="fa fa-heart"></i>
+                          </div>
+                          <div>
+                            <i class="fa fa-thumbs-up"></i>
+                          </div>
+                          <div>
+                            <i class="fa fa-laugh"></i>
+                          </div>
+                          <div>
+                            <i class="fa fa-sad-cry"></i>
+                          </div>
+                          <div>
+                            <i class="fa fa-angry"></i>
+                          </div>
+                        </div>
+
+                        <div class="action">
+                          <i class="fal fa-comments"></i>
+                          <span>comments</span>
+                        </div>
+                        <div class="action">
+                          <i class="fal fa-share"></i>
+                          <span>share</span>
+                        </div>
+                      </div>
+                      <!--add comment-->
+                      <div class="comment">
+                        <div class="add">
+                          <div class="profile">
+                            <img src="img/avatar/hero.png" alt="" />
+                          </div>
+                          <input type="text" placeholder="Write a comment..." />
+                        </div>
+                        <div class="other">
+                          <i class="fa fa-camera"></i>
+                          <i class="fa fa-smile"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--plugin-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      //story slider
+      $(".slider").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 3.2
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
